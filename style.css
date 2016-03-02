@@ -1,0 +1,31 @@
+html {
+    background: url(bg-for-web.png) no-repeat center top scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+    
+}
+
+.content {
+    font-family: Calibri;
+    
+    background-color: white;
+    position: center;
+    text-align: center;
+    margin-top: 850px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    margin-bottom: 500px;
+    
+    border-style:solid;
+    border-color: black;
+    border-top-width: 8px;
+    border-bottom-width:8px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    
+    
+}
