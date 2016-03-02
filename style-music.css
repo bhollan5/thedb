@@ -1,0 +1,103 @@
+html {
+    background: url(bg-music.png) no-repeat center top scroll;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    margin-top: auto;
+    
+    min-width: 1200px;
+    
+}
+
+.content {
+    font-family: theDB;
+    
+    background-color: white;
+    position: center;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    margin-bottom: 500px;
+    
+    border-style:solid;
+    border-color: black;
+    border-width: 8px;
+    
+    height: 100px;
+}
+
+.content img {
+    margin-left: 20px;
+    align: left;
+}
+
+@font-face {
+    font-family: theDB;
+    src: url(AlteHaasGroteskBold.ttf);
+}
+
+.menu {
+    font-family: theDB;
+    font-size: 100px;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    
+    height: 200px;
+    
+}
+
+.menu p{
+    color: white;
+    text-shadow: 3px 4px 5px #000;
+    font-stretch: ultra-condensed;
+    margin-top: 350px;
+    
+}  
+
+.logo {
+    width: 380px;
+    height: 400px;
+    order: 2;
+    border-radius: 50%;
+    
+    
+}
+
+.logo :hover {
+   background: radial-gradient(rgba(10,22,157,0.5), rgba(255,255,25,0) 50%);
+    border: 0px solid grey;
+}
+
+.menu a:link{
+    text-decoration: none;
+}
+
+.music {
+    
+    width: 350px;
+    order: 1;
+    margin-right: 200px;
+    
+}
+.contact-menu {
+    width: 350px;
+    order: 2;
+    margin-left: 200px;
+}
+
+.contact-menu :hover {
+    color: #9d0a0e;
+}
+
+.music :hover {
+    color: #9d0a0e;
+    
+}
